@@ -21,7 +21,7 @@ body {
 .card {
     border: 5px black solid;
     background: linear-gradient(rgba(255, 255, 255, 0.651), rgba(255, 255, 255, 0.5)),
-    url("/Content/Fundo card.JPG");
+    url("../Content/Fundo card.JPG");
     flex: 1 1 250px;
     padding: 40px;
     max-width: 250px;
