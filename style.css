@@ -18,6 +18,16 @@ body {
         1px  1px 0 black;
 }
 
+.card {
+    border: 5px white solid;
+    background-color: white;
+    margin: 150px;
+    padding: 40px;
+    flex: 1;
+    max-width: 250px;
+    border-radius: 15px;
+}
+
 .board {
-    border: 5px black solid;
+    display: flex;
 }
