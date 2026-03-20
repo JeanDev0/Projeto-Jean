@@ -47,12 +47,13 @@ h2 {
         1px -1px 0 rgb(255, 255, 255),
        -1px  1px 0 rgb(255, 255, 255),
         1px  1px 0 rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 40px;
     line-height: 0;
+    text-align: center;
 }
 
 li {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .adiciona_task {
@@ -67,4 +68,15 @@ ul {
     margin-top: 60px;
     list-style: none;
     padding: 0;
+}
+
+.remover {
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.remover {
+    width: 20px;
+    height: 20px;
+
 }
