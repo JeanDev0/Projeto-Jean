@@ -61,7 +61,7 @@ li {
 }
 
 button {
-    border-radius: 10px;
+    border: none;
 }
 
 ul {
@@ -75,4 +75,8 @@ ul {
     cursor: pointer;
     width: 20px;
     height: 20px;
+}
+
+input {
+    border: none;
 }
