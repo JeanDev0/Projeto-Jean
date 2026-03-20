@@ -11,31 +11,39 @@
         <h1 class="title">Minhas tarefas</h1>
     </header>
     <section class="board">
-        <ul style="list-style: none;" class="card">
+        <div class="card">
             <h2>Fazendo</h2>
-            <li>               
-                <input type="checkbox">
-                Layout do projeto
-            </li>
-            <br>
-            <input class ="adiciona_task" type="text" placeholder="Adicione task"><button>+</button>                        
-        </ul>
-        <ul style="list-style: none;" class="card">
+            <h2>______________</h2>
+            <ul id="lista-fazendo">
+                <li>               
+                    <input type="checkbox">
+                    Layout do projeto
+                </li>
+            </ul>
+            <input id="input-fazendo" type="text" placeholder="Adicione task"><button id="btn-fazendo">+</button> 
+        </div>
+        <div class="card">
             <h2>A Fazer</h2>
-            <li>               
-                <input type="checkbox">
-                Terminar o projeto
-            </li>
-            <br>
-            <input class ="adiciona_task" type="text" placeholder="Adicione task"><button>+</button>       
-        </ul>
-        <ul class="card">
+            <h2>______________</h2>
+            <ul id="lista-afazer">
+                <li>               
+                    <input type="checkbox">
+                    Terminar o projeto
+                </li>       
+            </ul>
+            <input id="input-afazer" type="text" placeholder="Adicione task"><button id="btn-afazer">+</button>
+        </div>
+        <div class="card">
             <h2>Feito</h2>
-            <br>
-            <li>
-                Projeto terminado
-            </li>
-        </ul>
+            <h2>______________</h2>
+            <ul>
+                <br>
+                <li>
+                    Projeto terminado
+                </li>
+            </ul>
+        </div>        
     </section>
+    <script src="Script/script.js"></script>
 </body>
 </html>

@@ -23,9 +23,9 @@ body {
     background: linear-gradient(rgba(255, 255, 255, 0.774), rgba(255, 255, 255, 0.5)),
     url("../Content/Fundo card.JPG");
     flex: 1 1 250px;
-    padding: 60px;
+    padding: 32px;
     margin: 60px;
-    max-width: 250px;
+    max-width: 300px;
     border-radius: 15px;
     background-size: cover;
     background-position: center;
@@ -47,6 +47,7 @@ h2 {
        -1px  1px 0 rgb(255, 255, 255),
         1px  1px 0 rgb(255, 255, 255);
     font-size: 30px;
+    line-height: 0;
 }
 
 li {
@@ -59,4 +60,10 @@ li {
 
 button {
     border-radius: 10px;
+}
+
+ul {
+    margin-top: 60px;
+    list-style: none;
+    padding: 0;
 }
