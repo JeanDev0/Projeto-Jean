@@ -73,10 +73,6 @@ ul {
 .remover {
     border-radius: 50px;
     cursor: pointer;
-}
-
-.remover {
     width: 20px;
     height: 20px;
-
 }
