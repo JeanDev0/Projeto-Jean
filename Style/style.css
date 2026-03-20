@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:slnt,wght@-8,100..900&family=Bitcount+Prop+Double:wght@100..900&family=Pacifico&display=swap');
 
 body {
-    
-    background-size: cover;
-    background-image: url(https://imagens.ebc.com.br/f0xBJtGd9zN4rfk4F1Yt8BZBv6I=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/09/06/54770136894_59403684a2_o.jpg?itok=O_0MAj6E);
-    
+    background: linear-gradient(to bottom, rgba(248, 170, 25, 0.747), rgba(11, 121, 224, 0.678));
+    background-size: cover;   
 }
 
 .title {
