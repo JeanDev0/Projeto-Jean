@@ -18,7 +18,7 @@ botao.addEventListener("click",() =>{
     li.innerHTML = `
         <input class="finalizado" type="checkbox">
         ${texto}
-        <img class="remover" src="Content/5499405.png" alt"Remover>
+        <img class="remover" src="Img/5499405.png" alt"Remover>
     `;
 
     const checkbox = li.querySelector(".finalizado");
