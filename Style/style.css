@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:slnt,wght@-8,100..900&family=Bitcount+Prop+Double:wght@100..900&family=Pacifico&display=swap');
 
 body {
-    background: radial-gradient(gray, orange);
+    background: linear-gradient(to bottom, rgba(248, 170, 25, 0.747), rgba(11, 121, 224, 0.678));
     
 }
 
@@ -12,23 +12,24 @@ body {
     margin-top: 40px;
     font-family: 'Pacifico', sans-serif;
     text-shadow:     
-       -1px -1px 0 black,
+       -2px -1px 0 black,
         1px -1px 0 black,
-       -1px  1px 0 black,
+       -2px  1px 0 black,
         1px  1px 0 black;
 }
 
 .card {
     border: 5px black solid;
-    background: linear-gradient(rgba(255, 255, 255, 0.651), rgba(255, 255, 255, 0.5)),
+    background: linear-gradient(rgba(255, 255, 255, 0.774), rgba(255, 255, 255, 0.5)),
     url("../Content/Fundo card.JPG");
     flex: 1 1 250px;
-    padding: 40px;
+    padding: 60px;
+    margin: 60px;
     max-width: 250px;
     border-radius: 15px;
     background-size: cover;
     background-position: center;
-    min-height: 300px;
+    min-height: 500px;
 }
 
 .board {
@@ -46,4 +47,16 @@ h2 {
        -1px  1px 0 rgb(255, 255, 255),
         1px  1px 0 rgb(255, 255, 255);
     font-size: 30px;
+}
+
+li {
+    font-size: 20px;
+}
+
+.adiciona_task {
+    border-radius: 8px;
+}
+
+button {
+    border-radius: 10px;
 }
