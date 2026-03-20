@@ -3,10 +3,16 @@ let input = document.getElementById("input-fazendo")
 let lista = document.getElementById("lista-fazendo")
 let concluido = document.getElementById("lista-feito")
 
+input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        botao.click(); 
+    }
+});
+
 botao.addEventListener("click",() =>{
     let texto = input.value;
     if (!texto) return;
-
+    
     let li = document.createElement("li");
 
     li.innerHTML = `

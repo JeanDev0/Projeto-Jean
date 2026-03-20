@@ -8,8 +8,9 @@ body {
 .title {
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 70px;
+    font-size: 90px;
     margin-top: 40px;
+    margin-bottom: 10px;
     font-family: 'Pacifico', sans-serif;
     text-shadow:     
        -2px -1px 0 black,
@@ -23,13 +24,13 @@ body {
     background: linear-gradient(rgba(255, 255, 255, 0.774), rgba(255, 255, 255, 0.5)),
     url("../Content/Fundo card.JPG");
     flex: 1 1 250px;
-    padding: 32px;
+    padding: 10px;
     margin: 60px;
     max-width: 300px;
     border-radius: 15px;
     background-size: cover;
     background-position: center;
-    min-height: 500px;
+    min-height: 550px;
 }
 
 .board {
